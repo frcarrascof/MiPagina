@@ -1,0 +1,108 @@
+body{
+	color: #2D2D34;
+	position: relative;
+}
+
+b{
+	font-weight: 600;
+}
+
+/* Nav */
+ .navbar-light .navbar-nav .nav-link {
+    color: #384E77;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: #E56399;
+    font-weight: 800;
+}
+
+.navbar-brand__brand{
+	font-family: 'Nothing You Could Do', cursive;
+	color: #384E77!important;
+}
+
+.navbar-light.navbar-shrink{
+	padding:3px;
+}
+/* Info */
+
+.contenedorInfo {
+	color: #ffffff!important;
+    background: linear-gradient(46deg, #E56399, #384E77);
+    background-size: 500% 500%;
+    -webkit-animation: FondoAbout 30s ease infinite;
+    -moz-animation: FondoAbout 30s ease infinite;
+    animation: FondoAbout 30s ease infinite;
+
+}
+	@-webkit-keyframes FondoAbout {
+	    0%{background-position:14% 0%}
+	    50%{background-position:87% 100%}
+	    100%{background-position:14% 0%}
+	}
+	@-moz-keyframes FondoAbout {
+	    0%{background-position:14% 0%}
+	    50%{background-position:87% 100%}
+	    100%{background-position:14% 0%}
+	}
+	@-o-keyframes FondoAbout {
+	    0%{background-position:14% 0%}
+	    50%{background-position:87% 100%}
+	    100%{background-position:14% 0%}
+	}
+	@keyframes FondoAbout { 
+	    0%{background-position:14% 0%}
+	    50%{background-position:87% 100%}
+	    100%{background-position:14% 0%}
+	}
+
+.contenedorInfo h1{
+	font-family: 'Nothing You Could Do', cursive;
+	color: #ffffff;
+}
+
+
+.contenedorInfo__h2{
+	color: #E9EDED;
+}
+
+.btn-secondary{
+    color: #fff;
+    background-color: #18314F;
+    border-color: #18314F;
+}
+
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #384E77;
+    border-color: #384E77;
+}
+
+
+/* Portfolio */
+
+.contenedor h1{
+	font-family: 'Nothing You Could Do', cursive;
+	color: #384E77;
+}
+
+.bg-primary {
+    background-color: #FFFFFF !important;
+
+}
+
+
+/* Contacto */
+	.contacto{
+	}
+/* Footer */
+
+footer{
+	background-color: #384E77;
+	color: #FFFFFF;
+}
+
+.pb-4, .py-4 {
+    text-align: center;
+}
